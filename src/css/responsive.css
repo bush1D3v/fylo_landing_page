@@ -1,0 +1,84 @@
+@media (max-width:768px){
+    .header, main, .bottom-section, .footer{
+        padding: 20px 20px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+        height: 85vh;
+    }
+
+    main .main-image{
+        width: 100%;
+    }
+
+    main article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main article form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main article form .top-email{
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .mid-section{
+        grid-template-columns: 1fr;
+        height: 130vh;
+        background: url(../images/bg-curve-mobile.svg) no-repeat top;
+        background-size: cover;
+        padding: 20px 20px 40px;
+        text-align: center;
+    }
+
+    .mid-section .mid-section-image{
+        grid-area: 1;
+        width: 100%;
+    }
+
+    .mid-section article .see-how{
+        margin: 40px auto;
+    }
+
+    .mid-section article .rating-card{
+        align-self: center;
+    }
+
+    .bottom-section{
+        grid-template-columns: 1fr;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .bottom-section .text-area{
+        gap: 10px;
+    }
+
+    .bottom-section form{
+        align-items: center;
+    }
+
+    .bottom-section form .bottom-submit{
+        width: 90%;
+    }
+
+    .footer{
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .footer address{
+        align-self: center;
+    }
+}
